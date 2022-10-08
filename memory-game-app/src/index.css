@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding:0;
+  background-color: rgb(66, 78, 78);
+  background-image: url("./img/bg.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.displayedCard{
+  height: 10rem;
+  background-color: #0a0a0acc;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 19rem;
+  font-weight:bold;
+  font-size: 1.3rem;
+  border-radius: 15px;
+  color: rgb(194, 187, 99);
+}
+
+.cardsDisplay{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+  justify-items: center;
+
+}
+
+.cardImage{
+  width: 13rem;
+  height: 13rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  
+  
+}
